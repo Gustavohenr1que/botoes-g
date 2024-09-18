@@ -1,0 +1,55 @@
+body{
+background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+
+    padding: 10px 20px;
+    /* quando tem dois valores o primeiro é direita e o segundo é esquerda*/
+
+    cursor: pointer; /*cursor vira uma mão*/
+    border-radius: 20px;
+    border: none;
+}
+
+.transparente{
+    background-color: transparent;
+    color: #fff;
+    border: 4px dotted #f0f0f0;
+}
+
+.transparente:hover {
+
+    color:#6e6e6e;
+    border: 5px dotted #6e6e6e;
+}
+.gradiente{
+    background:linear-gradient(to top,red,purple);
+    transition: transform 2s;
+}
+
+.gradiente:hover{
+transform: scale(1.7);
+}
+
+.sombra{
+        box-shadow: 0 6px 8px red;
+}
+
+.icone{
+        background-color: transparent;
+        font-size: 35px;
+        transition: transform 2s;
+}
+
+.icone:hover{
+transform: translateY(-500px) rotate(5000deg);
+
+}
